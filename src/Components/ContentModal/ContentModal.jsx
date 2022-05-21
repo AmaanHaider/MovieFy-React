@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
   },
   paper: {
     width: "90%",
-    height: "80%",
+    height: "90%",
     backgroundColor: "#39445a",
     border: "1px solid #282c34",
     borderRadius: 10,
@@ -80,7 +80,6 @@ export default function TransitionsModal({ children, media_type, id }) {
         style={{ cursor: "pointer" }}
         color="inherit"
         onClick={handleOpen}
-        
       >
         {children}
       </div>
