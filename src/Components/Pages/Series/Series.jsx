@@ -16,12 +16,12 @@ const Series = () => {
 
   const fetchSeries = async () => {
     const { data } = await axios.get(
-      `https://api.themoviedb.org/3/discover/tv?api_key=${Keys}}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=${page}&with_genres=${genreforURL}`
+      `https://api.themoviedb.org/3/discover/tv?api_key=${Keys}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=${page}&with_genres=${genreforURL}`
     );
     setContent(data.results);
     setNumOfPages(data.total_pages);
-    // console.log(data);
   };
+  console.log("data is:" ,content);
 
   useEffect(() => {
     window.scroll(0, 0);
