@@ -11,7 +11,7 @@ import SearchIcon from "@material-ui/icons/Search";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import CustomPagination from "../../Pagination/CustomPagination";
-import SingleContent from "../../SIngleContent/SingleContents";
+import SingleContent from "../../SingleContent/SingleContents";
 
 const  Keys = "291df45e949726307a272895099ae98b"
 
