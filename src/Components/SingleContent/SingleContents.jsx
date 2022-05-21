@@ -3,6 +3,7 @@ import { img_300, unavailable } from "../../Config/Config";
 import ContentModal from "../ContentModal/ContentModal";
 import "./SingleContent.css";
 
+
 const SingleContent = ({
   id,
   poster,
