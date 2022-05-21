@@ -13,7 +13,7 @@ import "./ContentModal.css";
 import { Button } from "@material-ui/core";
 import YouTubeIcon from "@material-ui/icons/YouTube";
 import Carousel from "../Carousel/Carousel";
-import "../SingleContent/SingleContent.css";
+// import "../SingleContent/SingleContent.css";
 
 
 const  AppKey = "291df45e949726307a272895099ae98b"
