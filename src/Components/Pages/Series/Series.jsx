@@ -3,7 +3,8 @@ import { useEffect, useState } from "react";
 import useGenre from "../../../Hooks/useGenre";
 import Genres from "../../Genres/Genres";
 import CustomPagination from "../../Pagination/CustomPagination";
-import SingleContent from "../../SingleContent/SingleContents";
+import SingleContent from "../../SIngleContent/SingleContents";
+
 let  Keys= "291df45e949726307a272895099ae98b"
 
 const Series = () => {
