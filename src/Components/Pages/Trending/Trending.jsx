@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import CustomPagination from "../../Pagination/CustomPagination";
-import SingleContent from "../../SIngleContent/SingleContent";
+import SingleContent from "../../SingleContent/SingleContents";
 import "./Trending.css"
 const key = "291df45e949726307a272895099ae98b";
 

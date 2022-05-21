@@ -3,8 +3,8 @@ import { useEffect, useState } from "react";
 import useGenre from "../../../Hooks/useGenre";
 import Genres from "../../Genres/Genres";
 import CustomPagination from "../../Pagination/CustomPagination";
-import SingleContent from "../../SingleContent/SingleContent";
-const  Key= "291df45e949726307a272895099ae98b"
+import SingleContent from "../../SingleContent/SingleContents";
+let  Keys= "291df45e949726307a272895099ae98b"
 
 const Series = () => {
   const [genres, setGenres] = useState([]);
@@ -16,7 +16,7 @@ const Series = () => {
 
   const fetchSeries = async () => {
     const { data } = await axios.get(
-      `https://api.themoviedb.org/3/discover/tv?api_key=${Key}}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=${page}&with_genres=${genreforURL}`
+      `https://api.themoviedb.org/3/discover/tv?api_key=${Keys}}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=${page}&with_genres=${genreforURL}`
     );
     setContent(data.results);
     setNumOfPages(data.total_pages);
@@ -40,6 +40,8 @@ const Series = () => {
         setGenres={setGenres}
         setPage={setPage}
       />
+
+     
       <div className="trending">
         {content &&
           content.map((e) => (

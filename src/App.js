@@ -5,13 +5,12 @@ import SimpleBottomNavigation from "./Components/Mainnav";
 import Container from "@material-ui/core/Container";
 import Trending from "./Components/Pages/Trending/Trending";
 import Movies from "./Components/Pages/Movies/Movies";
-import Series from "./Components/Pages/Series/Series";
 import Search from "./Components/Pages/Search/Search";
+import Series from "./Components/Pages/Series/Series";
 
 function App() {
   return (
     <BrowserRouter>
-      <SimpleBottomNavigation />
       <Header />
       <div className="App">
         <Container>
@@ -23,6 +22,7 @@ function App() {
           </Routes>
         </Container>
       </div>
+      <SimpleBottomNavigation />
     </BrowserRouter>
   );
 }
