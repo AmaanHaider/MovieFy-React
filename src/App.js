@@ -11,6 +11,7 @@ import Search from "./Components/Pages/Search/Search";
 function App() {
   return (
     <BrowserRouter>
+      <SimpleBottomNavigation />
       <Header />
       <div className="App">
         <Container>
@@ -22,7 +23,6 @@ function App() {
           </Routes>
         </Container>
       </div>
-      <SimpleBottomNavigation />
     </BrowserRouter>
   );
 }

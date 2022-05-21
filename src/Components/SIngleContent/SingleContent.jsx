@@ -1,7 +1,7 @@
 import { Badge } from "@material-ui/core";
 import React from "react";
 import { img_300, unavailable } from "../../Config/Config";
-import "./SIngleContent.css"
+import "./SingleContent.css"
 const SingleContent = ({
   id,
   poster,
