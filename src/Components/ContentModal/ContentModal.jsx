@@ -26,9 +26,9 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
   },
   paper: {
-    width: "90%",
-    height: "90%",
-    backgroundColor: "#39445a",
+    width: "80%",
+    height: "70%",
+    backgroundColor: "#613a2d",
     border: "1px solid #343428",
     borderRadius: 10,
     color: "white",
