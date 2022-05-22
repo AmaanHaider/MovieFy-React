@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     width: "80%",
     height: "70%",
-    backgroundColor: "#613a2d",
+    backgroundColor: "#006E7F",
     border: "1px solid #343428",
     borderRadius: 10,
     color: "white",
@@ -142,6 +142,9 @@ export default function TransitionsModal({ children, media_type, id }) {
                   </div>
 
                   <Button
+                    style={{
+                      boxShadow: "rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px"
+                    }}
                     variant="contained"
                     startIcon={<YouTubeIcon />}
                     color="secondary"
