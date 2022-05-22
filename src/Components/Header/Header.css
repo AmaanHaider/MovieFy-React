@@ -4,9 +4,9 @@
     position: fixed;
     display: flex;
     justify-content: center;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     background-color: #EB5353;
-    font-family: "Montserrat", sans-serif;
+    font-family:fantasy;
     font-size: 3vw;
     /* padding-bottom: 15px; */
     box-shadow: 0px 1px 5px black;
